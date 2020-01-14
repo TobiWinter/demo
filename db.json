@@ -1,13 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" }
+  "cafeterias": [
+    { "id": 1, "priority": 1 , "name": "Adenauer Ring", "meals": [ { "title": "Schnitzel", "line": 1}] },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "calendars": [
+    { "id": 2, "priority": 1, "title": "Klausuren", "entrys": [ { "title": "Mathe", "description": "Schwere Klausur", "start": "1995-12-17T03:24:00", "end": "1995-12-17T04:24:00", "place": "Audimax" } ] }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "guideposts": [
+    { "id": 3, "priority": 1, "title": "PSE Treffen", "room": 208, "direction": "reverse" }
+  ],
+  "pictures": [
+    { "id": 4, "priority": 1, "source": "/pictures/deineMuddaNackt.jpg" }
+  ],
+  "publications": [
+    {"id": 5, "priority": 1, "title": "Publikationen", "papers": [ { "author": "Max Müller", "conference": "Konferenz", "title": "Wichtige Erkenntnis", "date": "1995-12-17T04:24:00" } ]}
+  ],
+  "schedules": [
+    { "id": 6, "priority": 1, "stop": "Durlacher-Tor", "departures": [ { "time": "1995-12-17T04:24:00", "line": "S1", "direction": "Durlach" } ] }
+  ],
+  "serverutilizations": [
+    { "id": 7, "priority": 1, "processes": [ { "name": "Rendering", "server": "Server 1", "duration": 120, "position": 1 } ] }
+  ],
+  "texts": [
+    { "id": 8, "priority": 1, "text": "Hier könnte Ihre Werbung stehen!!" }
+  ],
+  "videos": [
+    { "id": 9, "priority": 1, "source": "/videos/deinVadderNackt.mp4" }
+  ],  
 }
